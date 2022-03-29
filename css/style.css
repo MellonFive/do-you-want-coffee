@@ -115,6 +115,10 @@ body {
     transform-origin: top;
 }
 
+.header .search-form.active {
+    transform: scaleY(1);
+}
+
 .header .search-form input {
     height: 100%;
     width: 100%;
@@ -143,6 +147,10 @@ body {
     width: 35rem;
     background: #FFF;
     padding: 0 1.5rem;
+}
+
+.header .cart-items-container.active {
+    right: 0;
 }
 
 .header .cart-items-container .cart-item {
@@ -205,7 +213,7 @@ body {
 
 }
 
-@media (max-width: 991px) {
+@media (max-width: 768px) {
 
     #menu-btn {
         display: inline-block;
@@ -215,10 +223,13 @@ body {
         position: absolute;
         top: 100%;
         right: -100%;
-        background: #FFF;
-        background: 30rem;
+        background: #fff;
         width: 30rem;
         height: calc(100vh - 9.5rem);
+    }
+
+    .header .navbar.active {
+        right: 0;
     }
 
     .header .navbar a {
@@ -228,10 +239,21 @@ body {
         padding: .5rem;
         font-size: 2rem;
     }
+
+    .header .search-form {
+        width: 90%;
+        right: 2rem;
+    }
     
 }
 
+@media (max-width: 450px) {
 
+    html {
+        font-size: 50%;
+    }
+
+}
 
 
 
