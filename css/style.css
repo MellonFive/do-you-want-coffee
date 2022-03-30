@@ -47,6 +47,19 @@ section {
     padding: 2rem 7%;
 }
 
+.heading {
+    text-align: center;
+    color: #FFF;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+}
+
+.heading span {
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+
 .btn {
     margin-top: 1rem;
     display: inline-block;
@@ -225,6 +238,39 @@ section {
     color: #EEE;
 }
 
+.about .row {
+    display: flex;
+    align-items: center;
+    background: var(--black);
+    flex-wrap: wrap;
+}
+
+.about .row .image {
+    flex: 1 1 45rem;
+}
+
+
+.about .row .image img {
+    width: 100%;
+}
+
+
+.about .row .content {
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+
+.about .row .content h3 {
+    font-size: 3rem;
+    color: #FFF;
+}
+
+.about .row .content p {
+    font-size: 1.6rem;
+    color: #CCC;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
 
 
 /* media queries */
