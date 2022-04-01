@@ -7,7 +7,7 @@
 <h3>Tecnologias usadas:</h3>
 
 - HTML
-- CSS
+- CSS (Responsividade)
 - JS
 
 ![readme](images/readme.png)
