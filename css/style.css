@@ -571,6 +571,19 @@ section {
     color: var(--main-color);
 }
 
+.footer .credit.-portfolio {
+    text-transform: none;
+}
+
+.footer .credit .link-portfolio {
+    color: #FFF;
+}
+
+.footer .credit .link-portfolio:hover {
+    text-decoration: underline;
+    font-size: 2.2rem;
+}
+
 /* media queries */
 @media (max-width: 991px) {
 
