@@ -166,9 +166,6 @@ section {
     padding: 0 1.5rem;
 }
 
-.header .cart-items-container.active {
-    right: 0;
-}
 
 .header .cart-items-container .cart-item {
     position: relative;
@@ -395,8 +392,8 @@ section {
 }
 
 .review .box-container .box .user {
-    height: 7rem;
-    width: 7rem;
+    height: 9rem;
+    width: 9rem;
     border-radius: 50%;
     object-fit: cover;
 }
