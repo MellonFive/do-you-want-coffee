@@ -15,7 +15,6 @@
     outline: none;
     border: none;
     text-decoration: none;
-    text-transform: capitalize;
     transition: .2s linear;
 }
 
@@ -73,6 +72,8 @@ section {
 .btn:hover {
     letter-spacing: .2rem;
 }
+
+/* Início header */
 
 .header {
     background: var(--bg);
@@ -208,6 +209,10 @@ section {
     text-align: center;
 }
 
+/* Fim header */
+
+/* Início home */
+
 .home {
     min-height: 100vh;
     display: flex;
@@ -234,6 +239,10 @@ section {
     padding: 1rem 0;
     color: #EEE;
 }
+
+/* Fim home */
+
+/* Início about */
 
 .about .row {
     display: flex;
@@ -269,6 +278,9 @@ section {
     line-height: 1.8;
 }
 
+/* Início about */
+
+/* Início menu */
 
 .menu .box-container {
     display: grid;
@@ -309,9 +321,13 @@ section {
     background: #FFF;
 }
 
-.menu .box-container .box:hover > * /*O que é isso? (> *)  */ {
+.menu .box-container .box:hover > * /* O que é isso? (> *)  */ {
     color: var(--black);
 }
+
+/* Fim home */
+
+/* Início products */
 
 .products .box-container {
     display: grid;
@@ -372,6 +388,10 @@ section {
     font-size: 1.5rem;
 }
 
+/* Fim products */
+
+/* Início review */
+
 .review .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -408,6 +428,10 @@ section {
     font-size: 1.5rem;
     color: var(--main-color);
 }
+
+/* Fim review */
+
+/* Início contact */
 
 .contact .row {
     display: flex;
@@ -458,6 +482,10 @@ section {
     text-transform: none;
     background: none;
 }
+
+/* Fim contact */
+
+/* Início blogs */
 
 .blogs .box-container {
     display: grid;
@@ -513,6 +541,10 @@ section {
     color: #CCC;
     padding: 1rem 0;
 }
+
+/* Fim blogs */
+
+/* Início footer */
 
 .footer {
     background: var(--black);
@@ -580,6 +612,9 @@ section {
     text-decoration: underline;
     font-size: 2.2rem;
 }
+
+/* Fim footer */
+
 
 /* media queries */
 @media (max-width: 991px) {
@@ -651,5 +686,4 @@ section {
     html {
         font-size: 50%;
     }
-
 }
