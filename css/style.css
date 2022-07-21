@@ -70,7 +70,8 @@ section {
 }
 
 .btn:hover {
-    letter-spacing: .2rem;
+    letter-spacing: .1rem;
+    transform: scale(1.09);
 }
 
 /* Início header */
@@ -602,6 +603,7 @@ section {
 
 .footer .credit.-portfolio {
     text-transform: none;
+    margin-bottom: 2rem;
 }
 
 .footer .credit .link-portfolio {
