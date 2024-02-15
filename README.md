@@ -10,4 +10,4 @@
 - CSS (Responsividade)
 - JS
 
-![readme](images/readme.png)
+![readme](images/readme.gif)
